@@ -1,0 +1,16 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "CLI de notas",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node app.js --help"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

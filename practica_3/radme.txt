@@ -1,0 +1,53 @@
+1) Agregar nota
+
+Crea una nueva nota con título y cuerpo.
+
+node app.js add --title "Compras" --body "Leche, pan, huevos"
+
+Opciones:
+
+--title (string, requerido): Título de la nota
+
+--body (string, requerido): Contenido de la nota
+
+Salida esperada:
+
+✔ Nota agregada.
+2) Listar notas
+
+Muestra los títulos de todas las notas existentes.
+
+node app.js list
+
+Salida esperada:
+
+Notas:
+1. Compras
+2. Recordatorio médico
+...
+3) Leer una nota
+
+Muestra el título y cuerpo de una nota buscándola por título.
+
+node app.js read --title "Compras"
+
+Opciones:
+
+--title (string, requerido)
+
+Salida esperada:
+
+Título: Compras
+Cuerpo: Leche, pan, huevos
+4) Eliminar una nota
+
+Borra una nota por su título.
+
+node app.js remove --title "Compras"
+
+Opciones:
+
+--title (string, requerido)
+
+Salida esperada:
+✔ Nota eliminada.
